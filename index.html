@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Muhammed Aufa Sa-adi &amp; Hafizath Ayisha Sihana al-adaviyya — Muhammed Noufal &amp; Fathima Sahadiyya</title>
+<meta name="description" content="With the blessings of Allah, join us in celebrating a Double Wedding ceremony." />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Muhammed Aufa Sa-adi & Hafizath Ayisha Sihana al-adaviyya — Muhammed Noufal & Fathima Sahadiyya" />
+<meta property="og:description" content="With the blessings of Allah, join us in celebrating a Double Wedding ceremony." />
+<meta property="og:image" content="images/wedding-share.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Muhammed Aufa Sa-adi & Hafizath Ayisha Sihana al-adaviyya — Muhammed Noufal & Fathima Sahadiyya" />
+<meta name="twitter:description" content="With the blessings of Allah, join us in celebrating a Double Wedding ceremony." />
+<meta name="twitter:image" content="images/wedding-share.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="no-scroll">
+
+<!-- ============================================================
+     BISMILLAH INTRO (Arabic calligraphy reveal, no photo)
+     ============================================================ -->
+<div class="bismillah-intro" id="bismillahIntro">
+  <div class="bismillah-glow"></div>
+  <div class="bismillah-particles" id="introParticles"></div>
+  <p class="bismillah-text" id="bismillahText"></p>
+  <p class="bismillah-translation" id="bismillahTranslation"></p>
+</div>
+
+<audio id="bgAudio" src="audio/wedding-song.mp3" loop preload="none"></audio>
+
+<!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+<header class="navbar" id="navbar">
+  <div class="container">
+    <a href="#home" class="nav-logo">A &amp; N</a>
+    <ul class="nav-links" id="navLinks"></ul>
+    <div class="nav-actions">
+      <button class="icon-btn" id="musicToggle" aria-label="Toggle background music">
+        <svg id="musicIconOn" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        <svg id="musicIconOff" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="mobile-drawer-close">
+    <button id="menuClose" aria-label="Close menu">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <ul class="mobile-links" id="mobileNavLinks"></ul>
+</div>
+
+<main>
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section id="home" class="hero">
+    <div class="islamic-pattern-bg" id="islamicPattern"></div>
+    <div class="glow-orb gold" style="width:500px;height:500px;left:50%;top:0;transform:translateX(-50%);"></div>
+    <div class="glow-orb olive" style="width:350px;height:350px;left:-80px;bottom:0;"></div>
+    <div class="glow-orb maroon" style="width:350px;height:350px;right:-80px;bottom:40px;"></div>
+    <div class="hero-particles" id="heroParticles"></div>
+
+    <!-- Moon -->
+    <div class="moon-deco animate-float-slow" style="left:32px;top:64px;">
+      <svg width="80" height="80" viewBox="0 0 90 90" fill="none">
+        <path d="M55 10C35 10 19 26 19 46C19 66 35 82 55 82C61 82 67 80.5 72 78C60 74 51 61 51 46C51 31 60 18 72 14C67 11.5 61 10 55 10Z" fill="#D4AF37" opacity="0.9"/>
+      </svg>
+    </div>
+
+    <!-- Lanterns -->
+    <div class="lantern-deco animate-sway" style="left:8px;top:0;">
+      <div class="chain"></div>
+      <svg width="76" height="98" viewBox="0 0 60 90" fill="none">
+        <circle cx="30" cy="42" r="26" fill="#D4AF37" opacity="0.15"/>
+        <rect x="24" y="6" width="12" height="6" rx="1" fill="#D4AF37"/>
+        <path d="M20 12 H40 L36 24 H24 Z" fill="#D4AF37" opacity="0.9"/>
+        <path d="M22 24 Q30 18 38 24 L40 58 Q30 66 20 58 Z" fill="#0f0f0f" stroke="#D4AF37" stroke-width="1.5"/>
+        <line x1="30" y1="26" x2="30" y2="58" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+        <path d="M24 58 H36 L32 68 H28 Z" fill="#D4AF37"/>
+        <circle cx="30" cy="72" r="2.5" fill="#D4AF37"/>
+      </svg>
+    </div>
+    <div class="lantern-deco animate-sway" style="right:8px;top:0;animation-delay:0.6s;">
+      <div class="chain"></div>
+      <svg width="86" height="110" viewBox="0 0 60 90" fill="none">
+        <circle cx="30" cy="42" r="26" fill="#D4AF37" opacity="0.15"/>
+        <rect x="24" y="6" width="12" height="6" rx="1" fill="#D4AF37"/>
+        <path d="M20 12 H40 L36 24 H24 Z" fill="#D4AF37" opacity="0.9"/>
+        <path d="M22 24 Q30 18 38 24 L40 58 Q30 66 20 58 Z" fill="#0f0f0f" stroke="#D4AF37" stroke-width="1.5"/>
+        <line x1="30" y1="26" x2="30" y2="58" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+        <path d="M24 58 H36 L32 68 H28 Z" fill="#D4AF37"/>
+        <circle cx="30" cy="72" r="2.5" fill="#D4AF37"/>
+      </svg>
+    </div>
+
+    <!-- Olive leaves corners -->
+    <div class="leaves-deco animate-sway" style="left:-24px;bottom:0;">
+      <svg width="140" height="190" viewBox="0 0 160 220" fill="none">
+        <g stroke="#8FB339" stroke-width="1.4" opacity="0.85">
+          <path d="M10 210 C30 160 20 100 60 40" fill="none"/>
+          <ellipse cx="35" cy="150" rx="16" ry="8" fill="#8FB339" opacity="0.5" transform="rotate(-35 35 150)"/>
+          <ellipse cx="48" cy="115" rx="16" ry="8" fill="#8FB339" opacity="0.6" transform="rotate(-25 48 115)"/>
+          <ellipse cx="55" cy="80" rx="15" ry="7" fill="#8FB339" opacity="0.55" transform="rotate(-15 55 80)"/>
+          <circle cx="30" cy="185" r="3" fill="#D4AF37"/>
+        </g>
+      </svg>
+    </div>
+    <div class="leaves-deco flip animate-sway" style="right:-24px;bottom:0;">
+      <svg width="140" height="190" viewBox="0 0 160 220" fill="none">
+        <g stroke="#8FB339" stroke-width="1.4" opacity="0.85">
+          <path d="M10 210 C30 160 20 100 60 40" fill="none"/>
+          <ellipse cx="35" cy="150" rx="16" ry="8" fill="#8FB339" opacity="0.5" transform="rotate(-35 35 150)"/>
+          <ellipse cx="48" cy="115" rx="16" ry="8" fill="#8FB339" opacity="0.6" transform="rotate(-25 48 115)"/>
+          <ellipse cx="55" cy="80" rx="15" ry="7" fill="#8FB339" opacity="0.55" transform="rotate(-15 55 80)"/>
+          <circle cx="30" cy="185" r="3" fill="#D4AF37"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="hero-content">
+      <p class="eyebrow reveal" id="heroBlessing"></p>
+
+      <div class="hero-couples-grid">
+        <div class="couple-name-block reveal delay-1">
+          <h2 class="script-name" id="heroGroom1"></h2>
+          <svg class="heart-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.7-4.35-9.3-8.14C1 10.2 1.7 6.6 4.6 5.1 7 3.9 9.6 4.8 12 7.4c2.4-2.6 5-3.5 7.4-2.3 2.9 1.5 3.6 5.1 1.9 7.76C18.7 16.65 12 21 12 21z"/></svg>
+          <h2 class="script-name" id="heroBride1"></h2>
+        </div>
+
+        <div class="hero-center-divider reveal delay-2">
+          <span class="v-line"></span>
+          <svg width="22" height="22" viewBox="0 0 18 18" fill="none"><path d="M9 0 L11 7 L18 9 L11 11 L9 18 L7 11 L0 9 L7 7 Z" fill="#D4AF37"/></svg>
+          <span class="v-line"></span>
+        </div>
+
+        <div class="couple-name-block reveal delay-1">
+          <h2 class="script-name" id="heroGroom2"></h2>
+          <svg class="heart-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.7-4.35-9.3-8.14C1 10.2 1.7 6.6 4.6 5.1 7 3.9 9.6 4.8 12 7.4c2.4-2.6 5-3.5 7.4-2.3 2.9 1.5 3.6 5.1 1.9 7.76C18.7 16.65 12 21 12 21z"/></svg>
+          <h2 class="script-name" id="heroBride2"></h2>
+        </div>
+      </div>
+
+      <div class="hero-date-block reveal delay-2">
+        <p class="hero-date-day" id="heroDay"></p>
+        <p class="hero-date-main" id="heroGregorian"></p>
+        <p class="hero-date-hijri" id="heroHijri"></p>
+        <p class="hero-date-schedule" id="heroSchedule"></p>
+      </div>
+
+      <a href="#venue" class="hero-venue-btn reveal delay-3" id="heroVenueBtn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-6-5.5-6-10a6 6 0 1 1 12 0c0 4.5-6 10-6 10Z"/><circle cx="12" cy="11" r="2.5"/></svg>
+        <span id="heroVenueLabel"></span>
+      </a>
+    </div>
+
+    <a href="#invitation" class="scroll-down">
+      <span>Scroll Down</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+    </a>
+  </section>
+
+  <!-- ============================================================
+       INVITATION + COUNTDOWN
+       ============================================================ -->
+  <section id="invitation">
+    <div class="container">
+      <div class="invitation-grid">
+        <div class="glass-card islamic-frame invitation-card reveal">
+          <p class="eyebrow">Invitation</p>
+          <h2 class="section-heading" style="margin-top:8px;">Invitation Message</h2>
+          <div class="divider" style="margin-top:20px;">
+            <span class="divider-line"></span>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 0 L11 7 L18 9 L11 11 L9 18 L7 11 L0 9 L7 7 Z" fill="#D4AF37"/></svg>
+            <span class="divider-line"></span>
+          </div>
+          <p class="arabic-verse" id="arabicVerse"></p>
+          <p class="arabic-translation" id="arabicTranslation"></p>
+          <p class="invitation-message" id="invitationMessage"></p>
+          <div class="divider" style="margin-top:24px;">
+            <span class="divider-line"></span>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 0 L11 7 L18 9 L11 11 L9 18 L7 11 L0 9 L7 7 Z" fill="#D4AF37"/></svg>
+            <span class="divider-line"></span>
+          </div>
+        </div>
+
+        <div class="glass-card islamic-frame countdown-card reveal delay-1">
+          <h3 id="countdownHeading"></h3>
+          <p class="sub" id="countdownSub"></p>
+          <div class="countdown-units">
+            <div class="countdown-unit"><span class="value" id="cdDays">--</span><span class="label">Days</span></div>
+            <div class="countdown-unit"><span class="value" id="cdHours">--</span><span class="label">Hours</span></div>
+            <div class="countdown-unit"><span class="value" id="cdMinutes">--</span><span class="label">Minutes</span></div>
+            <div class="countdown-unit"><span class="value" id="cdSeconds">--</span><span class="label">Seconds</span></div>
+          </div>
+          <div class="countdown-notes" id="countdownNotes"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       OUR COUPLES
+       ============================================================ -->
+  <section id="couples">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">A Union of Two Families</p>
+        <h2 class="section-heading">Our Couples</h2>
+        <div class="divider"><span class="divider-line"></span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 0 L11 7 L18 9 L11 11 L9 18 L7 11 L0 9 L7 7 Z" fill="#D4AF37"/></svg><span class="divider-line"></span></div>
+      </div>
+      <div class="couples-grid" id="couplesGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WEDDING DETAILS
+       ============================================================ -->
+  <section id="details">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Save The Date</p>
+        <h2 class="section-heading">Wedding Details</h2>
+        <div class="divider"><span class="divider-line"></span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 0 L11 7 L18 9 L11 11 L9 18 L7 11 L0 9 L7 7 Z" fill="#D4AF37"/></svg><span class="divider-line"></span></div>
+      </div>
+      <div class="details-grid" id="detailsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TIMELINE
+       ============================================================ -->
+  <section id="timeline">
+    <div class="container-sm">
+      <div class="section-head reveal">
+        <p class="eyebrow">How The Day Unfolds</p>
+        <h2 class="section-heading">Timeline</h2>
+        <div class="divider"><span class="divider-line"></span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 0 L11 7 L18 9 L11 11 L9 18 L7 11 L0 9 L7 7 Z" fill="#D4AF37"/></svg><span class="divider-line"></span></div>
+      </div>
+      <div class="timeline-wrap">
+        <div class="timeline-line"></div>
+        <div id="timelineSteps"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       VENUE
+       ============================================================ -->
+  <section id="venue">
+    <div class="container-md">
+      <div class="section-head reveal">
+        <p class="eyebrow">Join Us At</p>
+        <h2 class="section-heading">Venue</h2>
+        <div class="divider"><span class="divider-line"></span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 0 L11 7 L18 9 L11 11 L9 18 L7 11 L0 9 L7 7 Z" fill="#D4AF37"/></svg><span class="divider-line"></span></div>
+      </div>
+      <div class="glass-card islamic-frame venue-card reveal delay-1">
+        <iframe class="venue-map" id="venueMap" title="Venue Map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="venue-info">
+          <svg class="pin" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-6-5.5-6-10a6 6 0 1 1 12 0c0 4.5-6 10-6 10Z"/><circle cx="12" cy="11" r="2.5"/></svg>
+          <h3 id="venueTitle"></h3>
+          <p id="venueAddress"></p>
+          <div class="venue-buttons">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="gold-outline-btn" id="venueMapBtn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-6-5.5-6-10a6 6 0 1 1 12 0c0 4.5-6 10-6 10Z"/><circle cx="12" cy="11" r="2.5"/></svg>
+              Open in Maps
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="gold-outline-btn" id="venueDirectionsBtn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 11 18-8-8 18-2-8-8-2Z"/></svg>
+              Get Directions
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FAMILY
+       ============================================================ -->
+  <section id="family">
+    <div class="container-md">
+      <div class="section-head reveal">
+        <p class="eyebrow">With Love &amp; Gratitude</p>
+        <h2 class="section-heading">Family</h2>
+        <div class="divider"><span class="divider-line"></span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 0 L11 7 L18 9 L11 11 L9 18 L7 11 L0 9 L7 7 Z" fill="#D4AF37"/></svg><span class="divider-line"></span></div>
+      </div>
+      <div class="family-grid" id="familyGrid"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="divider"><span class="divider-line"></span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 0 L11 7 L18 9 L11 11 L9 18 L7 11 L0 9 L7 7 Z" fill="#D4AF37"/></svg><span class="divider-line"></span></div>
+    <div class="footer-inner">
+      <p class="thanks" id="footerThanks"></p>
+      <p class="closing" id="footerClosing"></p>
+      <p class="signature" id="footerSignature"></p>
+      <div class="footer-socials" id="footerSocials"></div>
+      <p class="footer-credit">&copy; <span id="footerYear"></span> — Made with love, faith &amp; blessings</p>
+    </div>
+  </footer>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+<script src="js/content.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
